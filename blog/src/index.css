@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#navlink.active {
+  @apply text-orange-300;
+}
+#edit {
+  @apply px-2 py-1 bg-blue-500 text-white mr-2 rounded-md;
+}
+#delete {
+  @apply px-2 py-1 bg-red-500 text-white rounded-md;
+}
+#post_actions {
+  @apply border border-blue-600 p-2 rounded-lg mb-2;
+}
+.post {
+  @apply bg-gray-700 text-white p-2 hover:bg-black mb-1 w-[17rem] rounded-lg;
+}
+input,
+textarea {
+  @apply rounded-lg;
+}
